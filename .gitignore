@@ -7,9 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules
 node_modules
+
+# Build output
 dist
 dist-ssr
+
+# Local environment files
 *.local
 
 # Editor directories and files
@@ -22,3 +27,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Electron build artifacts
+*.asar
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm
+*.msi
+*.tar.gz
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
